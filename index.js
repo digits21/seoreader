@@ -96,11 +96,11 @@ var successRate=7
         */
         var strongTempArray=body.split('</strong>')
         var strongCount=parseInt(strongTempArray.length)-1
-        if ( strongCount<strongTagNum) {
+        if ( strongCount>strongTagNum) {
           console.log("============ <strong/> tag analytics ===================")
-        	console.log("There are less strong tags than normal")
+        	console.log("There are more strong tags than normal")
         	console.log("The normal number of str tags is :"+strongTagNum)
-        	console.log("But your file contains only: "+strongCount)
+        	console.log("But your file contains : "+strongCount)
           successRate-=1
 
         }
