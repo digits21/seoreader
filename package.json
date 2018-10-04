@@ -1,0 +1,30 @@
+{
+  "name": "seoreadder",
+  "version": "1.4.0",
+  "description": "This a seo reader that defines whether your html code is seo friendly or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digits21/seoreader.git"
+  },
+  "keywords": [
+    "seo",
+    "npm",
+    "nodejs",
+    "html"
+  ],
+  "author": "Jean Ouedrago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digits21/seoreader/issues"
+  },
+  "homepage": "https://github.com/digits21/seoreader#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
