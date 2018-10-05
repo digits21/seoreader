@@ -11,10 +11,10 @@ const fs=require('fs') // file reader package
 var successRate=7
     console.log("============SEO analytics start===================")
        /*
-            check that filename is entered
+            check that filename  and number of strong tags are entered entered
         */ 
-  if(directory==""){
-  	 console.log("pathname cannot be empty")
+  if(directory=="" ||strongTagNum==""){
+  	 console.log("pathname or number of strong tags  cannot be empty")
   	
   }else{
 
