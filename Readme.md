@@ -19,11 +19,11 @@ This is a basic seo analyser based on the rules below:
 
 - `npm i seoreadder`
 
-# Base Usage 
+# Basic Usage 
 
-`var seoreadder=required('seoreadder')
-var strongTagNumber=15
-seoreadder('path/to/index.html',strongTagNumber)`
+` var seoreadder=require('seoreadder')
+   var strongTagNumber=15
+   seoreadder('path/to/index.html',strongTagNumber)`
 
 # Output
 
