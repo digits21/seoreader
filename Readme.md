@@ -21,9 +21,9 @@ This is a basic seo analyser based on the rules below:
 
 # Basic Usage 
 
-` var seoreadder=require('seoreadder')
-   var strongTagNumber=15
-   seoreadder('path/to/index.html',strongTagNumber)`
+  ` var seoreadder=require('seoreadder') 
+    var strongTagNumber=15
+    seoreadder('path/to/index.html',strongTagNumber)`
 
 # Output
 
